@@ -22,13 +22,16 @@ body {
     url("../assets/marsrover.jpg") center no-repeat;
   background-size: cover;
   position: relative;
-  overflow: hidden;
 }
 
 .container {
   max-width: 120rem;
   width: 90%;
   margin: 0 auto;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
 
 .billing {
@@ -41,6 +44,21 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 2%;
+}
+input:checked + label {
+  color: orange;
+}
+.add-ons {
+  padding: 2%;
+  width: 900px;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  border: solid 3px white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+  color: white;
 }
 button {
   background-color: #4caf50; /* Green */
