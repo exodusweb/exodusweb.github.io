@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Exodus Front-End" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fa4e25b22a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/billstyle.css" />
+    <title>Exodus</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-toggle" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="overlay"></div>
+      <div class="container">
+        <nav>
+          <h1 class="brand"><a href="index.html">Exodus</a></h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container hero"></div>
+    </header>
+    <div class="movie-info">
+      <div class="movie-desc">
+        Cast : Matthew McConaughey, Anne Hathaway, Jessica Chastain
+        <br />
+        <br />
+        Director : Christopher Nolan
+        <br />
+        <!-- <br />
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <br />
+        -->
+        <br />
+        In the future, where Earth is becoming uninhabitable, farmer and ex-NASA
+        pilot Cooper is asked to pilot a spacecraft along with a team of
+        researchers to find a new planet for humans.
+      </div>
+      <div class="movie-poster">
+        <img src="./assets/interstellar.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="show-select">
+      <h2>Select Your Show</h2>
+      <br />
+
+      <div class="tab-frame">
+        <input type="radio" checked name="tab" id="tab1" />
+        <label for="tab1">3/10/2020</label>
+
+        <input type="radio" name="tab" id="tab2" />
+        <label for="tab2">4/10/2020</label>
+
+        <input type="radio" name="tab" id="tab3" />
+        <label for="tab3">5/10/2020</label>
+
+        <div class="tab">
+          <div class="radio-toolbar">
+            <input type="radio" id="3-3" name="Oct3" value="3-3" checked />
+            <label for="3-3">3.00 PM</label>
+
+            <input type="radio" id="3-4" name="Oct3" value="3-4" />
+            <label for="3-4">4.00 PM</label>
+
+            <input type="radio" id="3-5" name="Oct3" value="3-5" />
+            <label for="3-5">5.00 PM</label>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+        <div class="tab">
+          <div class="radio-toolbar">
+            <input type="radio" id="4-3" name="Oct4" value="4-3" checked />
+            <label for="4-3">3.00 PM</label>
+
+            <input type="radio" id="4-4" name="Oct4" value="4-4" />
+            <label for="4-4">4.00 PM</label>
+
+            <input type="radio" id="4-5" name="Oct4" value="4-5" />
+            <label for="4-5">5.00 PM</label>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+        <div class="tab">
+          <div class="radio-toolbar">
+            <input type="radio" id="5-3" name="Oct5" value="5-3" checked />
+            <label for="5-3">3.00 PM</label>
+
+            <input type="radio" id="5-4" name="Oct5" value="5-4" />
+            <label for="5-4">4.00 PM</label>
+
+            <input type="radio" id="5-5" name="Oct5" value="5-5" />
+            <label for="5-5">5.00 PM</label>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+
+      <div style="float: right">
+        <button>Proceed</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
